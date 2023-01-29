@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from "react";
-import ReactDOM from "react-dom";
+import './app.scss';
 
 const App = (props: { message: string }) => {
     const [count, setCount] = useState(0);
@@ -13,7 +13,4 @@ const App = (props: { message: string }) => {
     </>)
 };
 
-ReactDOM.render(
-    <App message="Hello World! Simple Counter App built on ESBuild + React + Typescript"/>,
-    document.getElementById('root')  
-  );
+export default App;
