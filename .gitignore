@@ -1,0 +1,12 @@
+# binary
+bin/
+dist/
+lib/
+
+# code editor
+.DS_STORE
+.vscode/
+.idea/
+
+# npm
+node_modules/
