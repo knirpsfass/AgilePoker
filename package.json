@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/knirpsfass/AgilePoker/issues"
   },
-  "homepage": "https://github.com/knirpsfass/AgilePoker#readme"
+  "homepage": "https://github.com/knirpsfass/AgilePoker#readme",
+  "dependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "esbuild": "^0.17.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.4"
+  }
 }
